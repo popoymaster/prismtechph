@@ -16,11 +16,14 @@ main {
   align-items: center;
 }
 
-/* Logo styling */
-main img {
-  max-width: 600px;   /* scales logo nicely */
+/* Circle logo styling */
+.circle-logo {
+  max-width: 300px;   /* adjust size */
   width: 100%;
   height: auto;
+  border-radius: 50%; /* makes it circular */
+  border: 5px solid #004080; /* optional border */
+  object-fit: cover;  /* ensures proper cropping */
 }
 
 /* Footer styling */
